@@ -1,0 +1,14 @@
+@import './vendor/normalize';
+
+.container{
+    h1 {
+        color: red;
+    }
+    p {
+        color: royalblue;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {background-color: navy;}
+}
