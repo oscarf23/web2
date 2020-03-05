@@ -1,14 +1,38 @@
 @import './vendor/normalize';
+@import './partials/colors';
+@import './partials/typography';
+@import './partials/mixins';
 
-.container{
-    h1 {
-        color: red;
-    }
-    p {
-        color: royalblue;
-    }
+h1{
+    color: #FFEB00;
+    font-size: 70px;
+    margin: 0px;
+    background-color:#232374;
+    text-align: center;
 }
 
 @media (min-width: 1024px) {
     .container {background-color: navy;}
 }
+
+p{
+      color: white;
+      font-size: 33px;
+      text-align: center;
+      margin: 80px;
+}
+
+
+/* Rounded border */
+hr.rounded {
+    border-top: 15px solid #FFEB00;
+    border-radius: 5px;}
+    
+    h2{
+        color: #FFEB00;
+        font-size: 50px; 
+
+
+    }
+
+   
