@@ -28,11 +28,34 @@ hr.rounded {
     border-top: 15px solid #FFEB00;
     border-radius: 5px;}
     
+    
     h2{
         color: #FFEB00;
-        font-size: 50px; 
+        font-size: 50px; }
 
 
-    }
+.parent{
+background-color:#232374;
+margin: 10px;
+padding: 30px;
+display: flex;
+flex-flow: column wrap;
+color: white;
+font-size: 33px;
+text-align: center;
+margin: 80px;
+flex-basis: 200px;
+}
+
+.title{
+    display: flex;
+    flex-flow: row;
+    flex-basis: 100px;
+}
+
+
+
+
+
 
    
