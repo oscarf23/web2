@@ -56,6 +56,69 @@ flex-basis: 200px;
 
 
 
+.transition{
+    background: black;
+    height: 100px;
+    width: 200px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    
+    transition: width 1s ease-out;
+    &:hover {
+        width: 400px;
+        }
+
+}
+
+.icon{
+    float: right;
+    border-radius: 50%;
+    transition: transform 2s ease-out;
+    &:hover{
+    transform: rotate(360deg);
+    }
+}
+
+ul {
+    font-family: $heading_primary_font;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 65px;
+    background-color: black;
+  }
+  
+  li a {
+    display: block;
+    color: #FFEB00; 
+    padding: 5px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #555;
+    color: white;}
+
+
+@keyframes changeBg{
+    0%{
+        background: black;
+    }
+    100%{
+        background: #232374;
+    }
+}
+
+    .keyframe{
+      animation: changeBg 2s infinite alternate;
+    }
+
+  
+  
+
+
+
+
 
 
    

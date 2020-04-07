@@ -430,4 +430,80 @@ h2 {
   -ms-flex-preferred-size: 100px;
       flex-basis: 100px;
 }
+
+.transition {
+  background: black;
+  height: 100px;
+  width: 200px;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition: width 1s ease-out;
+  transition: width 1s ease-out;
+}
+
+.transition:hover {
+  width: 400px;
+}
+
+.icon {
+  float: right;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  transition: -webkit-transform 2s ease-out;
+  transition: transform 2s ease-out;
+  transition: transform 2s ease-out, -webkit-transform 2s ease-out;
+}
+
+.icon:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+ul {
+  font-family: "Anton";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 65px;
+  background-color: black;
+}
+
+li a {
+  display: block;
+  color: #FFEB00;
+  padding: 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+@-webkit-keyframes changeBg {
+  0% {
+    background: black;
+  }
+  100% {
+    background: #232374;
+  }
+}
+
+@keyframes changeBg {
+  0% {
+    background: black;
+  }
+  100% {
+    background: #232374;
+  }
+}
+
+.keyframe {
+  -webkit-animation: changeBg 2s infinite alternate;
+          animation: changeBg 2s infinite alternate;
+}
 /*# sourceMappingURL=main.css.map */
