@@ -11,6 +11,8 @@ h1{
     text-align: center;
 }
 
+
+
 @media (min-width: 1024px) {
     .container {background-color: navy;}
 }
@@ -84,20 +86,19 @@ ul {
     font-family: $heading_primary_font;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5;
     width: 65px;
-    background-color: black;
+    background-color: #FFEB00;
+    
   }
   
   li a {
-    display: block;
-    color: #FFEB00; 
-    padding: 5px;
-    text-decoration: none;
+    color: #FFEB00;
   }
   li a:hover {
-    background-color: #555;
-    color: white;}
+    background-color: #232374;
+    color: white;
+}
 
 
 @keyframes changeBg{
@@ -113,7 +114,20 @@ ul {
       animation: changeBg 2s infinite alternate;
     }
 
+    // custom requirements 
+@import "./scss/functions";
+@import "./scss/variables";
+@import "./scss/mixins";
+
+$theme-colors: (
+  "primary": #232374,
+  "danger": #FFEB00
+);
   
+
+// import at end of customs
+@import "./scss/bootstrap";
+
   
 
 
