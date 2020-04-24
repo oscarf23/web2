@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Pathway+Gothic+One&display=swap');
+
+$heading_primary_font:'Anton';
+
+$heading_secondary_font:'Pathway Gothic One';
+
+h1{
+     font-family: $heading_primary_font;
+     color: #FFEB00;
+     font-size: 70px;
+}
+
+p{
+     font-family: $heading_secondary_font;
+     color: #FFFFFF;
+     font-size: 33px;
+}
+
+h2{
+    font-family: $heading_primary_font;
+    text-decoration: underline white;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.parent{
+     font-family: $heading_secondary_font;
+}
+
