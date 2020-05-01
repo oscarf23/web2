@@ -13,8 +13,17 @@ h1{
 
 
 
+
+
+
 @media (min-width: 1024px) {
     .container {background-color: navy;}
+}
+
+.jumbotron{
+    background-image: url(/assets/images/background.jpg);
+    padding: 300px 100px;
+    height: 800px;
 }
 
 p{
@@ -94,10 +103,13 @@ ul {
   
   li a {
     color: #FFEB00;
+    margin: 5px;
   }
   li a:hover {
     background-color: #232374;
     color: white;
+    margin: 5px;
+    
 }
 
 
@@ -112,7 +124,18 @@ ul {
 
     .keyframe{
       animation: changeBg 2s infinite alternate;
+      
     }
+
+
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;}
+
+
 
     // custom requirements 
 @import "./scss/functions";
@@ -123,6 +146,7 @@ $theme-colors: (
   "primary": #232374,
   "danger": #FFEB00
 );
+
   
 
 // import at end of customs

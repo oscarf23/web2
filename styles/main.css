@@ -362,10 +362,16 @@ h2 {
           text-decoration-line: underline;
   -webkit-text-decoration-style: wavy;
           text-decoration-style: wavy;
+  text-align: center;
 }
 
 .parent {
   font-family: "Pathway Gothic One";
+}
+
+.center {
+  font-family: "Pathway Gothic One";
+  font-size: 33px;
 }
 
 h1 {
@@ -380,6 +386,12 @@ h1 {
   .container {
     background-color: navy;
   }
+}
+
+.jumbotron {
+  background-image: url(/assets/images/background.jpg);
+  padding: 300px 100px;
+  height: 800px;
 }
 
 p {
@@ -474,11 +486,13 @@ ul {
 
 li a {
   color: #FFEB00;
+  margin: 5px;
 }
 
 li a:hover {
   background-color: #232374;
   color: white;
+  margin: 5px;
 }
 
 @-webkit-keyframes changeBg {
@@ -502,6 +516,19 @@ li a:hover {
 .keyframe {
   -webkit-animation: changeBg 2s infinite alternate;
           animation: changeBg 2s infinite alternate;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
 }
 
 /*!

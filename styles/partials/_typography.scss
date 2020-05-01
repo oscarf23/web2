@@ -21,9 +21,16 @@ h2{
     text-decoration: underline white;
     text-decoration-line: underline;
     text-decoration-style: wavy;
+    text-align: center;
 }
 
 .parent{
      font-family: $heading_secondary_font;
 }
+
+.center{
+     font-family: $heading_secondary_font;
+     font-size: 33px;
+}
+
 
