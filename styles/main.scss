@@ -13,12 +13,81 @@ h1{
 
 
 
+.SportsPic{
+    width:300px;
+    height: 200px;
+}
+
+.SchoolPics{
+    width:300px;
+    height: 200px;
+}
+
+.WorkPics{
+    width:300px;
+    height: 200px;
+}
+
+.HolidaysPics{
+    width:300px;
+    height: 200px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.SubjectsLogo{
+    width:105px;
+    height: 99px;
+}
+
+.SportsLogo{
+    width:115px;
+    height: 99px;
+}
+
+.SchoolLogo{
+    width:113px;
+    height: 99px;
+}
+
+.WorkLogo{
+    width:132px;
+    height: 99px;
+}
+
+.HolidayLogo{
+    width:91px;
+    height: 100px;
+}
+
+
 
 
 
 @media (min-width: 1024px) {
     .container {background-color: navy;}
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+
+
 
 .jumbotron{
     background-image: url(/assets/images/background.jpg);
@@ -110,6 +179,25 @@ ul {
     color: white;
     margin: 5px;
     
+}
+
+h3{
+    color: #FFEB00;
+}
+
+.Fname{
+    color: #FFEB00;
+}
+
+.Lname{
+    color: #FFEB00 ;
+}
+
+
+.footer{
+    padding: 10px 20px;
+      background: #666;
+      color: white;
 }
 
 
